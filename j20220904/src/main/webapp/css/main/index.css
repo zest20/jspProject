@@ -1,0 +1,38 @@
+/* 전체 레이아웃 */
+body {
+    padding-top :145px;
+}
+#header{
+    background: #fff;
+    height: 145px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index : 999;
+}
+#banner{height:450px; line-height:450px; background: #4dd0e1;}
+#contents{height:950px;}
+#footer{height:350px;}
+
+/* 레이아웃 */
+#header-top { 
+    height: 97px;
+    background-color: #fff;
+    position: relative;
+}
+#header-nav {
+    background: #ee1c25;
+    position: relative;
+    height: 48px;
+    pointer-events: none;
+}
+#contents1 {height:90px; line-height:90px; background-color: #26c6da;}
+#contents2 {height:480px; line-height:480px; background-color: #00bcd4;}
+#contents3 {height:380px; line-height:380px; background-color: #00acc1;}
+/* #footer-nav height:60px; line-height:60px; background-color: #0097a7; */
+#footer-info {height:350px; background-color: #A6A6A6;}
+
+/* container 영역 */
+.container {width: 1200px; height: inherit; margin:0 auto;}
+
