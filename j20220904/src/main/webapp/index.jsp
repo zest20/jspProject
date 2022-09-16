@@ -22,7 +22,7 @@
 	
 	<div id="contents">
  	    <div id="contents1">
-            <div class="container">contents1</div>
+            <div class="container">contents1!</div>
         </div>
         <div id="contents2">
             <div class="container">contents2</div>
